@@ -6,8 +6,8 @@ pipeline{
    stages {
     stage ('Script') {
 	     steps{
-		      sh 'chmod +x test mb jenkins.sh'
-		      sh './test mb jenkins.sh
+		      sh 'chmod +x test_mb_jenkins.sh'
+		      sh './test_mb_jenkins.sh
 		      }
 	    }
 	
